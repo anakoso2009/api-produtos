@@ -38,7 +38,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 80px;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 nav li {
@@ -56,9 +57,9 @@ nav a {
 
 nav a:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 6px 14px rgba(91, 0, 148, 0.795);
-    background-color: #0062e2;
-    color: #ffffff;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.795);
+    background: linear-gradient(135deg, #de36ff, #086ad3);
+    font-weight: 900;
 }
 
 .container-header h1 {
@@ -69,7 +70,7 @@ nav a:hover {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  background: linear-gradient(135deg, #ad51fd, #38f8cb);
   color: white;
   padding: 80px 40px;
   text-align: center;
@@ -139,7 +140,7 @@ nav a:hover {
 
 /* FOOTER */
 footer {
-  background-color: #1f2937;
+  background-color: #48a3bf;
   color: white;
   text-align: center;
   padding: 15px;
